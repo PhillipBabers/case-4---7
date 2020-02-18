@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+
+ h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3.2em;
+  color: rgb(230,230,255);
+  text-shadow: 4px 3px 10px black;
+  float: left;
+  padding: 5px;
+}
+h1.seven {  
+  font-family: sans-serif;
+  float: left;
+  padding: 0%;
+vertical-align: center;  
+  margin: 0px;
+  margin-top: 50px;
+  font-size: 3em; 
+  }
+*.seven{
+  font-family: sans-serif;
+}
+html {
+background: linear-gradient(to right, black 15%,  rgb(150,150,200),rgb(230,230,255), aliceblue, white);
+}
+fieldset {
+  background: white;
+  border: 3px solid darkblue;
+  border-radius: 25px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+legend {
+  float: left;
+}
+label.states{
+  font-family: cursive;
+}
+input:focus{
+   visibility: hidden;
+}
+input:not(input:focus){
+visibility: visible;
+
+}
+
+
+@media only screen and (max-width: 480px){
+html {
+background: linear-gradient(to bottom , black 15%,  rgb(150,150,200),rgb(230,230,255), aliceblue, white 50%);
+}
+
+
+
+
+}
